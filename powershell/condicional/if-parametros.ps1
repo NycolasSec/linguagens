@@ -6,3 +6,4 @@ if(!$ip){
     Write-Output "Efetuando ping no host: $ip"
     ping -n 2 $ip | Select-String "bytes=32"
 }
+
